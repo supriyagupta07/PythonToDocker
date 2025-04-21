@@ -1,0 +1,4 @@
+venv/ 
+PythonToDocker/  
+__pycache__/ 
+*.pyc 
