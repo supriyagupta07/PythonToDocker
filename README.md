@@ -1,8 +1,10 @@
 **My first Dockerized app :D**
+
 Welcome to my mini Flask web app that's fully Dockerized and deployed online!  
 This was my first project where I explored how to containerise a Python web app and deploy it. 
 
 **What it does**
+
 This is a simple Python Flask web application that:
 * Displays a customised HTML welcome message.
 * It is containerised using **Docker**.
@@ -11,6 +13,7 @@ This is a simple Python Flask web application that:
 Before I start, it's important to know, I did it on Windows in Command Prompt.
 
 **What is each file doing?**
+
 _app.py_: It’s the core of what my Docker container is running "Hello, Supriya!" message (or any other logic) lives here.
 
 _requirements.txt_: This file lists all the Python libraries your app depends on. For your project, the main one is Flask.
@@ -24,9 +27,10 @@ Steps it follows:
 * Installs the dependencies from requirements.txt.
 * Runs your Flask app on container start.
 
-_test-web-app.sh_ (Optional): There are two commands in this file. This is for Unix-based terminals (like Bash). If you are using Windows then you will have to manually run these commands. It automates the process of building and running your Docker container.
+_test-web-app.sh_ (Optional): There are two commands in this file. This is for Unix-based terminals (like Bash). If you are using Windows, then you will have to manually run these commands. It automates the process of building and running your Docker container.
 
 **ERRORS**
+
 This project was a real hands-on ride! Some issues I ran into and resolved:
 * Docker Daemon not running — resolved by starting Docker Desktop app on laptop manually.
 * Dockerfile: no such file or directory — fixed by making sure I'm in the correct directory before building.
